@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dale's Custom Cedar Furniture | Bruderheim, Alberta</title>
+  <meta name="description" content="Custom cedar furniture built to order in Bruderheim, Alberta: planters, Adirondack chairs, benches and tables. See Dale's work and ask for a price.">
+
+  <!--
+    Security: a Content-Security-Policy limits what the page can load or send.
+    - Scripts, styles and fonts come only from this site (no inline code, no third parties).
+    - connect-src lists the form services the quote form is allowed to POST to.
+      If a different form service is used, add its address here (see README).
+  -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data:; style-src 'self'; font-src 'self'; script-src 'self'; connect-src https://formspree.io https://api.web3forms.com; form-action 'self' https://formspree.io https://api.web3forms.com; base-uri 'self'; manifest-src 'self'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+
+  <!-- Link previews (Facebook, text messages). Image URL is absolute so previews work once live. -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Dale's Custom Cedar Furniture">
+  <meta property="og:description" content="Custom cedar planters, chairs, benches and tables, built to order in Bruderheim, Alberta.">
+  <meta property="og:image" content="https://idunnoguesswho.github.io/dales-custom-cedar-furniture/images/share.jpg">
+  <meta name="theme-color" content="#2b1a0e">
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="preload" href="fonts/bevan-latin-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Structured data: lets Google understand this is a local business (name, phone, address) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Dale's Custom Cedar Furniture",
+    "telephone": "+1-780-984-5917",
+    "email": "dl.thompson@shaw.ca",
+    "image": "https://idunnoguesswho.github.io/dales-custom-cedar-furniture/images/share.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "5031-50 Avenue",
+      "addressLocality": "Bruderheim",
+      "addressRegion": "AB",
+      "addressCountry": "CA"
+    }
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#quote">Skip to the price request form</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="Dale's Custom Cedar Furniture, home">
+        <img src="images/logo.png" alt="" width="54" height="47">
+        <span class="brand-text">Dale's Custom<br><strong>Cedar Furniture</strong></span>
+      </a>
+
+      <nav class="main-nav" aria-label="Main">
+        <a href="#work">Dale's work</a>
+        <a href="#build">What he builds</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a class="btn btn-call" href="tel:+17809845917">
+        <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>
+        <span><span class="call-label">Call</span><span class="call-num"> 780-984-5917</span></span>
+      </a>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Bruderheim, Alberta</p>
+          <h1>Cedar furniture, built to order.</h1>
+          <p class="lead">Planters, Adirondack chairs, benches and tables made from cedar by Dale. Tell him what you have in mind and he'll send you a price.</p>
+          <div class="hero-actions">
+            <a class="btn btn-gold" href="#quote">Ask for a price</a>
+            <a class="btn btn-ghost" href="#work">See Dale's work</a>
+          </div>
+        </div>
+        <figure class="hero-photo">
+          <img src="images/adirondack-chair.jpg" alt="A cedar Adirondack chair with cup-holder arms on Dale's workbench" width="1004" height="1200" fetchpriority="high">
+          <figcaption>Cedar Adirondack chair with built-in cup holders</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ WORK / GALLERY ============ -->
+    <section class="section" id="work" aria-labelledby="work-h">
+      <div class="wrap">
+        <p class="eyebrow dark">Examples of Dale's work</p>
+        <h2 id="work-h">A few recent pieces</h2>
+        <p class="section-lead">Tap any photo to see it bigger. Everything is made to order, so sizes, finishes and details can be changed to suit you.</p>
+
+        <!-- Order matters: the two-column layout fills top-to-bottom, so this keeps both columns balanced -->
+        <ul class="gallery" role="list">
+          <li>
+            <button class="shot" type="button" data-full="images/ladder-planter.jpg" data-caption="Tiered ladder planter: four lined cedar planter boxes on a sloped frame">
+              <img src="images/ladder-planter.jpg" alt="Tiered cedar ladder planter with four lined planter boxes" width="709" height="1200" loading="lazy">
+              <span class="shot-cap">Tiered ladder planter</span>
+            </button>
+          </li>
+          <li>
+            <button class="shot" type="button" data-full="images/bench-planter.jpg" data-caption="Cedar bench with two built-in planters, marked with Dale's logo">
+              <img src="images/bench-planter.jpg" alt="Long cedar bench with a planter built into each end, one with herbs and one with red geraniums" width="1200" height="693" loading="lazy">
+              <span class="shot-cap">Bench with built-in planters</span>
+            </button>
+          </li>
+          <li>
+            <button class="shot" type="button" data-full="images/adirondack-chair.jpg" data-caption="Cedar Adirondack chair with cup holders cut into both arms">
+              <img src="images/adirondack-chair.jpg" alt="Cedar Adirondack chair with a cup holder in each arm" width="1004" height="1200" loading="lazy">
+              <span class="shot-cap">Adirondack chair</span>
+            </button>
+          </li>
+          <li>
+            <button class="shot" type="button" data-full="images/chair-set.jpg" data-caption="Adirondack chair with matching ottoman and two folding side tables">
+              <img src="images/chair-set.jpg" alt="Adirondack chair with a matching ottoman and two folding cross-leg side tables" width="1200" height="1063" loading="lazy">
+              <span class="shot-cap">Chair, ottoman and side tables</span>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ WHAT DALE BUILDS ============ -->
+    <section class="section section-alt" id="build" aria-labelledby="build-h">
+      <div class="wrap">
+        <p class="eyebrow dark">What Dale builds</p>
+        <h2 id="build-h">Made for your yard, deck and garden</h2>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Planters &amp; garden boxes</h3>
+            <p>Ladder planters, planter boxes and bench-and-planter combinations for herbs, flowers and vegetables.</p>
+          </article>
+          <article class="card">
+            <h3>Chairs &amp; seating</h3>
+            <p>Adirondack chairs with cup holders in the arms, matching ottomans, and benches.</p>
+          </article>
+          <article class="card">
+            <h3>Tables &amp; stools</h3>
+            <p>Folding cross-leg side tables that fit beside a chair or tuck away when you're done.</p>
+          </article>
+          <article class="card card-accent">
+            <h3>Something of your own</h3>
+            <p>Have a spot or an idea in mind? Send a photo or rough size and ask Dale what's possible.</p>
+          </article>
+        </div>
+
+        <p class="why-cedar"><strong>Why cedar?</strong> It's a naturally rot- and insect-resistant wood, which is why it's such a popular choice for things that live outdoors.</p>
+      </div>
+    </section>
+
+    <!-- ============ HOW PRICING WORKS ============ -->
+    <section class="section" id="pricing" aria-labelledby="pricing-h">
+      <div class="wrap narrow">
+        <p class="eyebrow dark">Pricing</p>
+        <h2 id="pricing-h">Every piece is built to order, so every price is quoted</h2>
+        <p class="section-lead">The price depends on the size, the design and how many you'd like. Asking for a price doesn't commit you to anything.</p>
+
+        <ol class="steps">
+          <li><span class="step-n" aria-hidden="true">1</span><div><strong>Tell Dale what you're after.</strong> A few words, a rough size or a photo you like is plenty.</div></li>
+          <li><span class="step-n" aria-hidden="true">2</span><div><strong>He sends you a price.</strong> Dale will call or email you back with the cost.</div></li>
+          <li><span class="step-n" aria-hidden="true">3</span><div><strong>He builds it.</strong> If you're happy with the price, your piece is made to order.</div></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ QUOTE FORM ============ -->
+    <section class="section section-dark" id="quote" aria-labelledby="quote-h">
+      <div class="wrap quote-grid">
+        <div class="quote-intro">
+          <p class="eyebrow">Get a price</p>
+          <h2 id="quote-h">Ask Dale for a price</h2>
+          <p class="lead">Fill in the form and Dale will get back to you. Prefer to talk? Just call.</p>
+          <a class="btn btn-gold btn-big" href="tel:+17809845917">Call 780-984-5917</a>
+        </div>
+
+        <form class="quote-form" id="quote-form" novalidate>
+          <div class="field">
+            <label for="f-name">Your name <span class="req">(required)</span></label>
+            <input id="f-name" name="name" type="text" autocomplete="name" required maxlength="100">
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="f-phone">Phone</label>
+              <input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" maxlength="30">
+            </div>
+            <div class="field">
+              <label for="f-email">Email</label>
+              <input id="f-email" name="email" type="email" autocomplete="email" maxlength="120">
+            </div>
+          </div>
+          <p class="hint" id="contact-hint">Please give a phone number or an email, so Dale can reach you.</p>
+
+          <div class="field">
+            <label for="f-type">What are you interested in?</label>
+            <select id="f-type" name="type">
+              <option>Not sure yet</option>
+              <option>A planter or garden box</option>
+              <option>An Adirondack chair or seating</option>
+              <option>A bench</option>
+              <option>A table or stool</option>
+              <option>Something custom</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="f-details">Tell Dale about it <span class="req">(required)</span></label>
+            <textarea id="f-details" name="details" rows="5" required maxlength="2000" placeholder="Size, where it will go, anything you like from the photos…"></textarea>
+          </div>
+
+          <!-- Spam trap: hidden from people, but bots fill it in. Real visitors never see or touch it. -->
+          <div class="trap" aria-hidden="true">
+            <label for="f-company">Leave this empty</label>
+            <input id="f-company" name="company" type="text" tabindex="-1" autocomplete="off">
+          </div>
+
+          <button class="btn btn-gold btn-big" type="submit">Ask for a price</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="contact" aria-labelledby="contact-h">
+      <div class="wrap">
+        <p class="eyebrow dark">Contact</p>
+        <h2 id="contact-h">Get in touch with Dale</h2>
+
+        <div class="contact-grid">
+          <div class="contact-item">
+            <h3>Phone</h3>
+            <p><a href="tel:+17809845917">780-984-5917</a></p>
+          </div>
+          <div class="contact-item">
+            <h3>Email</h3>
+            <p><a href="mailto:dl.thompson@shaw.ca">dl.thompson@shaw.ca</a></p>
+          </div>
+          <div class="contact-item">
+            <h3>Workshop</h3>
+            <p>5031-50 Avenue<br>Bruderheim, AB<br>
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=5031+50+Avenue+Bruderheim+AB" target="_blank" rel="noopener noreferrer">Get directions</a></p>
+          </div>
+          <div class="contact-item">
+            <h3>Facebook</h3>
+            <p><a href="https://www.facebook.com/search/top?q=Dale%27s%20Custom%20Cedar%20Furniture" target="_blank" rel="noopener noreferrer">Dale's Custom Cedar Furniture</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>&copy; <span id="year">2026</span> Dale's Custom Cedar Furniture &middot; Bruderheim, Alberta</p>
+      <p><a href="#top">Back to top</a></p>
+    </div>
+  </footer>
+
+  <!-- Phone-only bar: the two things a visitor most wants, always one tap away -->
+  <div class="mobile-bar">
+    <a class="btn btn-ghost-dark" href="tel:+17809845917">Call Dale</a>
+    <a class="btn btn-gold" href="#quote">Ask for a price</a>
+  </div>
+
+  <!-- Photo viewer. A native <dialog> gives us focus handling and the Esc key for free. -->
+  <dialog id="viewer" aria-label="Photo viewer">
+    <button class="viewer-close" type="button" aria-label="Close photo">&times;</button>
+    <button class="viewer-nav viewer-prev" type="button" aria-label="Previous photo">&#8249;</button>
+    <figure>
+      <img id="viewer-img" alt="" src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=">
+      <figcaption id="viewer-cap"></figcaption>
+    </figure>
+    <button class="viewer-nav viewer-next" type="button" aria-label="Next photo">&#8250;</button>
+  </dialog>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
