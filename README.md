@@ -3,7 +3,7 @@
 A one-page, mobile-first website for Dale's Custom Cedar Furniture (Bruderheim, AB).
 Customers can see examples of Dale's work and ask him for a price.
 
-**Live demo:** https://idunnoguesswho.github.io/dales-custom-cedar-furniture/
+**Live demo:** https://idunnoguesswho.github.io/cedar/
 
 ## What's on the page
 
